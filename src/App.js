@@ -1,21 +1,22 @@
 import React from "react";
 import Weather from "./Weather";
 import "./App.css";
-import "./Weather.css";
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather />
+        <div className="Wrap">
+          <Weather />
+        </div>
         <footer>
-          This project was coded by{" "}
+          This project was coded by Alessandra Santos and is open-sourced on{" "}
           <a
             href="https://github.com/AlessandraSantos-dev/react-weather"
             target="_blank"
             rel="noreferrer"
           >
-            Alessandra Santos
+            GitHub
           </a>
         </footer>
       </div>

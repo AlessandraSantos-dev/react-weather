@@ -1,7 +1,13 @@
 .App {
-  text-align: center;
+  text-align: left;
+  margin: 0 auto;
+  max-width: 600px;
 }
-
+.Wrap {
+  border: solid;
+  border-radius: 4px;
+  color: #c3b0b0;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -11,4 +17,8 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.App footer {
+  font-size: 11px;
+  margin: 15px 0;
 }
