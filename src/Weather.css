@@ -1,6 +1,6 @@
 :root {
-  --primary-color: rgb(237, 232, 232);
-  --secondary-color: rgb(212, 139, 2);
+  --primary-color: rgb(215, 207, 207);
+  --secondary-color: rgb(224, 149, 9);
 }
 .Weather {
   background-color: var(--primary-color);
@@ -25,11 +25,10 @@
   line-height: 20px;
 }
 .Weather img {
-  height: 70px;
-  width: 70px;
+  height: 75px;
+  width: 75px;
   margin-right: 15px;
   position: relative;
-  top: -15px;
 }
 .Weather .temperature {
   font-size: 64px;
