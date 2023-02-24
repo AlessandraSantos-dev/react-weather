@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <div className="container">
         <div className="Wrap">
-          <Weather />
+          <Weather defaultCity="Amsterdam" />
         </div>
         <footer>
           This project was coded by Alessandra Santos and is open-sourced on{" "}
