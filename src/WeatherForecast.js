@@ -29,14 +29,14 @@ export default function WeatherForecast(props) {
                 </div>
               );
             } else {
-              null;
+              return null;
             }
           })}
         </div>
       </div>
     );
   } else {
-    let apiKey = "1266ad07b66517497b1acf79ea5a6a64";
+    let apiKey = "5f472b7acba333cd8a035ea85a0d4d4c";
     let lat = props.coordinates.lat;
     let lon = props.coordinates.lon;
     let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`;
