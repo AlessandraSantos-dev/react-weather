@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# React Weather App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my solution to the final project of the [SheCodes React Workshop](https://www.shecodes.io/react).
 
 ## Available Scripts
 
