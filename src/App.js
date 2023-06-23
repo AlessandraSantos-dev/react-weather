@@ -16,7 +16,14 @@ function App() {
             target="_blank"
             rel="noreferrer"
           >
-            GitHub
+            GitHub and is hosted on{" "}
+          </a>
+          <a
+            href="https://app.netlify.com/sites/brilliant-trifle-5061e0/overview"
+            target="_blank"
+            rel="noreferrer"
+          >
+            netlify
           </a>
         </footer>
       </div>
